@@ -1,35 +1,37 @@
-windowBackgroundColor 0 255 255 
-labelColor 255 0 0 
-controlBackgroundColor 0 255 255 
-windowFrameColor 0 255 255 
-secondaryLabelColor 255 0 0 
-tertiaryLabelColor 255 0 0 
-quaternaryLabelColor 255 0 0 
-textColor 255 255 255 
-placeholderTextColor 255 0 0 
-selectedTextColor 255 255 255 
-textBackgroundColor 0 255 255 
-selectedTextBackgroundColor 0 255 255 
-keyboardFocusIndicatorColor 0 0 0 
-unemphasizedSelectedTextColor 255 255 255 
-unemphasizedSelectedTextBackgroundColor 0 255 255 
-linkColor 0 255 255 
-separatorColor 255 0 0 
-selectedContentBackgroundColor 0 255 255 
-unemphasizedSelectedContentBackgroundColor 0 255 255 
-selectedMenuItemTextColor 255 255 255 
-gridColor 0 255 255 
-headerTextColor 255 255 255 
-controlAccentColor 0 255 255 
-controlColor 255 0 0 
-controlTextColor 255 0 0 
-disabledControlTextColor 255 0 0 
-selectedControlColor 0 255 255 
-selectedControlTextColor 255 0 0 
-alternateSelectedControlTextColor 255 255 255 
-scrubberTexturedBackgroundColor 255 255 255 
-windowFrameTextColor 255 0 0 
-underPageBackgroundColor 0 255 255 
-findHighlightColor 255 255 255 
-highlightColor 0 255 255 
-shadowColor 0 255 255 
+osascript -e 'tell app "System Events" to tell appearance preferences to set dark mode to not dark mode'
+
+windowBackgroundColor (37, 37, 255, 0)
+labelColor (255, 254, 216, 0)
+controlBackgroundColor (22, 22, 255, 0)
+windowFrameColor (153, 153, 255, 0)
+secondaryLabelColor (255, 254, 140, 0)
+tertiaryLabelColor (255, 254, 63, 0)
+quaternaryLabelColor (255, 254, 25, 0)
+textColor (255, 254, 255, 0)
+placeholderTextColor (255, 254, 63, 0)
+selectedTextColor (255, 255, 255, 0)
+textBackgroundColor (22, 22, 255, 0)
+selectedTextBackgroundColor (48, 79, 255, 0)
+keyboardFocusIndicatorColor (27, 149, 76, 0)
+unemphasizedSelectedTextColor (255, 255, 255, 0)
+unemphasizedSelectedTextBackgroundColor (54, 54, 255, 0)
+linkColor (52, 134, 255, 0)
+separatorColor (255, 254, 25, 0)
+selectedContentBackgroundColor (5, 63, 255, 0)
+unemphasizedSelectedContentBackgroundColor (54, 54, 255, 0)
+selectedMenuItemTextColor (255, 254, 255, 0)
+gridColor (20, 20, 255, 0)
+headerTextColor (255, 254, 255, 0)
+controlAccentColor (10, 95, 255, 0)
+controlColor (255, 254, 63, 0)
+controlTextColor (255, 254, 216, 0)
+disabledControlTextColor (255, 254, 63, 0)
+selectedControlColor (48, 79, 255, 0)
+selectedControlTextColor (255, 254, 216, 0)
+alternateSelectedControlTextColor (255, 254, 255, 0)
+scrubberTexturedBackgroundColor (255, 254, 255, 0)
+windowFrameTextColor (255, 254, 216, 0)
+underPageBackgroundColor (29, 29, 255, 0)
+findHighlightColor (255, 255, 255, 0)
+highlightColor (164, 164, 255, 0)
+shadowColor (0, 0, 255, 0)

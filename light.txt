@@ -1,35 +1,35 @@
-windowBackgroundColor 0 255 255 
-labelColor 0 0 0 
-controlBackgroundColor 255 255 255 
-windowFrameColor 0 255 255 
-secondaryLabelColor 0 0 0 
-tertiaryLabelColor 0 0 0 
-quaternaryLabelColor 0 0 0 
-textColor 0 255 255 
-placeholderTextColor 0 0 0 
-selectedTextColor 0 255 255 
-textBackgroundColor 255 255 255 
-selectedTextBackgroundColor 0 255 255 
-keyboardFocusIndicatorColor 0 0 0 
-unemphasizedSelectedTextColor 0 255 255 
-unemphasizedSelectedTextBackgroundColor 0 255 255 
-linkColor 0 255 255 
-separatorColor 0 0 0 
-selectedContentBackgroundColor 0 255 255 
-unemphasizedSelectedContentBackgroundColor 0 255 255 
-selectedMenuItemTextColor 255 255 255 
-gridColor 0 255 255 
-headerTextColor 0 0 0 
-controlAccentColor 0 255 255 
-controlColor 255 255 255 
-controlTextColor 0 0 0 
-disabledControlTextColor 0 0 0 
-selectedControlColor 0 255 255 
-selectedControlTextColor 0 0 0 
-alternateSelectedControlTextColor 255 255 255 
-scrubberTexturedBackgroundColor 255 255 255 
-windowFrameTextColor 0 0 0 
-underPageBackgroundColor 0 0 0 
-findHighlightColor 255 255 255 
-highlightColor 255 255 255 
-shadowColor 0 255 255 
+windowBackgroundColor (231, 231, 255, 0)
+labelColor (0, 0, 216, 0)
+controlBackgroundColor (255, 254, 255, 0)
+windowFrameColor (153, 153, 255, 0)
+secondaryLabelColor (0, 0, 127, 0)
+tertiaryLabelColor (0, 0, 66, 0)
+quaternaryLabelColor (0, 0, 25, 0)
+textColor (0, 0, 255, 0)
+placeholderTextColor (0, 0, 63, 0)
+selectedTextColor (0, 0, 255, 0)
+textBackgroundColor (255, 254, 255, 0)
+selectedTextBackgroundColor (164, 204, 255, 0)
+keyboardFocusIndicatorColor (7, 75, 63, 0)
+unemphasizedSelectedTextColor (0, 0, 255, 0)
+unemphasizedSelectedTextBackgroundColor (211, 211, 255, 0)
+linkColor (8, 79, 255, 0)
+separatorColor (0, 0, 25, 0)
+selectedContentBackgroundColor (7, 73, 255, 0)
+unemphasizedSelectedContentBackgroundColor (211, 211, 255, 0)
+selectedMenuItemTextColor (255, 254, 255, 0)
+gridColor (223, 223, 255, 0)
+headerTextColor (0, 0, 216, 0)
+controlAccentColor (10, 95, 255, 0)
+controlColor (255, 254, 255, 0)
+controlTextColor (0, 0, 216, 0)
+disabledControlTextColor (0, 0, 63, 0)
+selectedControlColor (164, 204, 255, 0)
+selectedControlTextColor (0, 0, 216, 0)
+alternateSelectedControlTextColor (255, 254, 255, 0)
+scrubberTexturedBackgroundColor (255, 254, 255, 0)
+windowFrameTextColor (0, 0, 216, 0)
+underPageBackgroundColor (131, 131, 229, 0)
+findHighlightColor (255, 255, 255, 0)
+highlightColor (255, 254, 255, 0)
+shadowColor (0, 0, 255, 0)
