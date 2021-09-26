@@ -10,6 +10,7 @@
 #define COLOR_GET(color)                                                       \
   void my_##color(double *r, double *g, double *b, double *a) {                \
     NSColor *i = [NSColor color];                                              \
+    i = [NSColor colorForControlTint:[NSColor currentControlTint]];            \
     NSColor *c = [i colorUsingColorSpace:[NSColorSpace genericRGBColorSpace]]; \
     [c getRed:r green:g blue:b alpha:a];                                       \
   }
