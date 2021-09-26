@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: osascript -e 'tell app "System Events" to tell appearance preferences to set dark mode to not dark mode' && cc -omain coc.m main.c -framework Cocoa && ./main
+        run: cc -omain coc.m main.c -framework Cocoa && ./main
 
