@@ -112,4 +112,37 @@ int main()
 
     my_shadowColor(&r, &g, &b, &a);
     printf("shadowColor (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+    
+    my_systemBrownColor(&r, &g, &b, &a);
+    printf("systemBrownColor   (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+
+    my_systemGrayColor(&r, &g, &b, &a);
+    printf("systemGrayColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+
+    my_systemGreenColor(&r, &g, &b, &a);
+    printf("systemGreenColor   (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+
+    my_systemIndigoColor(&r, &g, &b, &a);
+    printf("systemIndigoColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+
+    my_systemOrangeColor(&r, &g, &b, &a);
+    printf("systemOrangeColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+
+    my_systemPinkColor(&r, &g, &b, &a);
+    printf("systemPinkColor   (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+
+    my_systemPurpleColor(&r, &g, &b, &a);
+    printf("systemPurpleColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+
+    my_systemRedColor(&r, &g, &b, &a);
+    printf("systemRedColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+
+    my_systemTealColor(&r, &g, &b, &a);
+    printf("systemTealColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+
+    my_systemYellowColor(&r, &g, &b, &a);
+    printf("systemYellowColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+    
+    my_systemCyanColor(&r, &g, &b, &a);
+    printf("systemCyanColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
 }
