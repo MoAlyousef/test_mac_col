@@ -143,6 +143,6 @@ int main()
     my_systemYellowColor(&r, &g, &b, &a);
     printf("systemYellowColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
     
-    my_systemCyanColor(&r, &g, &b, &a);
-    printf("systemCyanColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
+    // my_systemCyanColor(&r, &g, &b, &a);
+    // printf("systemCyanColor  (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
 }
