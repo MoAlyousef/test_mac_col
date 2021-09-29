@@ -103,5 +103,7 @@ COLOR_GET(systemRedColor)
 COLOR_GET(systemTealColor)
 
 COLOR_GET(systemYellowColor)
+  
+COLOR_GET(systemBlueColor)
 
 // COLOR_GET(systemCyanColor) // beta!
