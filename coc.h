@@ -22,8 +22,6 @@ COLOR_GET(labelColor)
 
 COLOR_GET(controlBackgroundColor)
 
-COLOR_GET(windowFrameColor)
-
 COLOR_GET(secondaryLabelColor)
 
 COLOR_GET(tertiaryLabelColor)
@@ -73,8 +71,6 @@ COLOR_GET(selectedControlColor)
 COLOR_GET(selectedControlTextColor)
 
 COLOR_GET(alternateSelectedControlTextColor)
-  
-// COLOR_GET(systemCyanColor) // beta!
 
 COLOR_GET(scrubberTexturedBackgroundColor)
 
@@ -108,3 +104,4 @@ COLOR_GET(systemTealColor)
 
 COLOR_GET(systemYellowColor)
 
+// COLOR_GET(systemCyanColor) // beta!
