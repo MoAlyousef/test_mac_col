@@ -73,6 +73,8 @@ COLOR_GET(selectedControlColor)
 COLOR_GET(selectedControlTextColor)
 
 COLOR_GET(alternateSelectedControlTextColor)
+  
+// COLOR_GET(systemCyanColor) // beta!
 
 COLOR_GET(scrubberTexturedBackgroundColor)
 
@@ -85,4 +87,24 @@ COLOR_GET(findHighlightColor)
 COLOR_GET(highlightColor)
 
 COLOR_GET(shadowColor)
+
+COLOR_GET(systemBrownColor)
+
+COLOR_GET(systemGrayColor)
+
+COLOR_GET(systemGreenColor)
+
+COLOR_GET(systemIndigoColor)
+
+COLOR_GET(systemOrangeColor)
+
+COLOR_GET(systemPinkColor)
+
+COLOR_GET(systemPurpleColor)
+
+COLOR_GET(systemRedColor)
+
+COLOR_GET(systemTealColor)
+
+COLOR_GET(systemYellowColor)
 
