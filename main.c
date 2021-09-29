@@ -17,9 +17,6 @@ int main()
     my_controlBackgroundColor(&r, &g, &b, &a);
     printf("controlBackgroundColor (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
 
-    my_windowFrameColor(&r, &g, &b, &a);
-    printf("windowFrameColor (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
-
     my_secondaryLabelColor(&r, &g, &b, &a);
     printf("secondaryLabelColor (%u, %u, %u, %u)\n", (unsigned)(r * 255.0), (unsigned)(g * 255.0), (unsigned)(b * 255.0), (unsigned)(a * 255.0));
 
